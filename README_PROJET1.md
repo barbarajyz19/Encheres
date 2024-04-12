@@ -1,4 +1,4 @@
-### PROJET 1 - ENCHERES
+### PROJET 1 - ENCHERES - LICENCE 3
 
 * auteur : Barbara JOYEZ
 
@@ -6,7 +6,7 @@
 
 1- Cloner le depot dans votre espace en effectuant :
 ```
-git clone git@gitlab-etu.fil.univ-lille.fr:barbara.joyez.etu/jsfs-tp-barbarajoyez.git
+git@github.com:barbarajyz19/encheres.git
 ```
 
 2- Placez vous dans votre terminal au niveau jsfs-tp-barbarajoyez/encheres/client/ et effectuez :
