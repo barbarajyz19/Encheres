@@ -1,0 +1,20 @@
+{
+    "name": "serveur",
+    "version": "1.0.0",
+    "description": "projet 1",
+    "scripts": {
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "Barbara JOYEZ",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "webpack": "^5.90.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "socket.io": "^4.7.4"
+    }
+}

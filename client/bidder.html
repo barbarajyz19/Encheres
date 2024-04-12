@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Bidder</title>
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+  <script src="/socket.io/socket.io.js"></script>
+  
+</head>
+
+<body>
+  <h1>Enchérisseur</h1>
+
+  <div class="info">
+    <p id="info">Bienvenue</p>
+  </div>
+
+  <br></br>
+
+  <div class="details">
+    <p>Mise aux enchères : <span id="status">en attente</span></p> 
+    <p>Prix actuel : <span id="montant">-€</span></p> 
+    <p id="proposal">Enchères possibles : <button id="btn5">5</button><button id="btn10">10</button><button id="btn100">100</button></p> 
+  </div>
+
+  <br></br>
+
+
+  <a href="/">retour à l'accueil</a>
+</body>
+</html>

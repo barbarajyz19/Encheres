@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Auctioneer</title>
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+  <script src="/socket.io/socket.io.js"></script>
+  
+</head>
+
+<body>
+  <h1>Commissaire-priseur</h1>
+  <section id="onlyOneConnection">
+    <div class="info">
+      <p class="info">Vous êtes commisaire-priseur.</p>
+    </div>
+    <br></br>
+    <div class="details">
+      <p>Objet aux enchères : <input type="text" id="name" name="name" placeholder="description"/></p> 
+      <p>Prix de départ : <input type="number" id="price" name="price" min="1" value="10"/></p> 
+      <p>Montant actuel aux enchères : <span class="montant">-€</span></p> 
+
+      <button id="start" class="button">
+        <img src="./images/start.png" alt="start" >
+      </button>
+      
+      <button id="judge" class="button">
+        <img src="./images/juge.png" alt="judge" >
+      </button>
+
+    </div>
+  </section>
+
+  <section id="tooMuchConnection">
+    <div>
+      <p>Connexion refusée, il y a déjà un commisaire-priseur.</p>
+    </div>
+  </section>
+  <br></br>
+  <a href="/">retour à l'accueil</a>
+</body>
+</html>
+
